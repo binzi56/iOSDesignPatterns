@@ -7,6 +7,9 @@
 //
 
 #import "FactoryMethodViewController.h"
+#import "ChinaFlagFactory.h"
+#import "AmericanFlagFactory.h"
+#import "Flag.h"
 
 @interface FactoryMethodViewController ()
 
@@ -17,6 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //simpleCode
+    Flag *chinaFlag = [ChinaFlagFactory createFlag];
+    Flag *americanFlag = [AmericanFlagFactory createFlag];
+    
+    [chinaFlag hangingOn];
+    [americanFlag hangingOn];
+    
+    
+    //
 }
 
 - (void)didReceiveMemoryWarning {

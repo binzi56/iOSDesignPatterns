@@ -38,6 +38,11 @@
 		183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6833214A4CF500D3EC63 /* VisitorViewController.m */; };
 		183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6836214A4D1E00D3EC63 /* MediatorViewController.m */; };
 		183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F683A214A4D6200D3EC63 /* InterpreterViewController.m */; };
+		183F6847214A680700D3EC63 /* ChinaFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6846214A680700D3EC63 /* ChinaFlag.m */; };
+		183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6849214A682000D3EC63 /* AmericanFlag.m */; };
+		183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F684C214A694700D3EC63 /* ChinaFlagFactory.m */; };
+		183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F684F214A695E00D3EC63 /* AmericanFlagFactory.m */; };
+		183F6854214A71EF00D3EC63 /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6853214A71EF00D3EC63 /* Flag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +125,18 @@
 		183F6836214A4D1E00D3EC63 /* MediatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorViewController.m; sourceTree = "<group>"; };
 		183F6839214A4D6200D3EC63 /* InterpreterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterpreterViewController.h; sourceTree = "<group>"; };
 		183F683A214A4D6200D3EC63 /* InterpreterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterpreterViewController.m; sourceTree = "<group>"; };
+		183F6841214A668200D3EC63 /* FlagFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagFactoryProtocol.h; sourceTree = "<group>"; };
+		183F6845214A680700D3EC63 /* ChinaFlag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinaFlag.h; sourceTree = "<group>"; };
+		183F6846214A680700D3EC63 /* ChinaFlag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaFlag.m; sourceTree = "<group>"; };
+		183F6848214A682000D3EC63 /* AmericanFlag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmericanFlag.h; sourceTree = "<group>"; };
+		183F6849214A682000D3EC63 /* AmericanFlag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmericanFlag.m; sourceTree = "<group>"; };
+		183F684B214A694700D3EC63 /* ChinaFlagFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinaFlagFactory.h; sourceTree = "<group>"; };
+		183F684C214A694700D3EC63 /* ChinaFlagFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaFlagFactory.m; sourceTree = "<group>"; };
+		183F684E214A695E00D3EC63 /* AmericanFlagFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmericanFlagFactory.h; sourceTree = "<group>"; };
+		183F684F214A695E00D3EC63 /* AmericanFlagFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmericanFlagFactory.m; sourceTree = "<group>"; };
+		183F6851214A6FD500D3EC63 /* FlagProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagProtocol.h; sourceTree = "<group>"; };
+		183F6852214A71EF00D3EC63 /* Flag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		183F6853214A71EF00D3EC63 /* Flag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +304,7 @@
 		183F67E1214A488500D3EC63 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				183F683D214A65AC00D3EC63 /* SimpleCode */,
 				183F67E9214A491A00D3EC63 /* FactoryMethodViewController.h */,
 				183F67EA214A491A00D3EC63 /* FactoryMethodViewController.m */,
 			);
@@ -455,6 +473,25 @@
 			path = Interpreter;
 			sourceTree = "<group>";
 		};
+		183F683D214A65AC00D3EC63 /* SimpleCode */ = {
+			isa = PBXGroup;
+			children = (
+				183F6851214A6FD500D3EC63 /* FlagProtocol.h */,
+				183F6841214A668200D3EC63 /* FlagFactoryProtocol.h */,
+				183F6845214A680700D3EC63 /* ChinaFlag.h */,
+				183F6846214A680700D3EC63 /* ChinaFlag.m */,
+				183F684B214A694700D3EC63 /* ChinaFlagFactory.h */,
+				183F684C214A694700D3EC63 /* ChinaFlagFactory.m */,
+				183F6848214A682000D3EC63 /* AmericanFlag.h */,
+				183F6849214A682000D3EC63 /* AmericanFlag.m */,
+				183F684E214A695E00D3EC63 /* AmericanFlagFactory.h */,
+				183F684F214A695E00D3EC63 /* AmericanFlagFactory.m */,
+				183F6852214A71EF00D3EC63 /* Flag.h */,
+				183F6853214A71EF00D3EC63 /* Flag.m */,
+			);
+			path = SimpleCode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -588,17 +625,20 @@
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
+				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
+				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
 				183F6819214A4BBE00D3EC63 /* StrategyViewController.m in Sources */,
 				183F681F214A4C1A00D3EC63 /* ObserverViewController.m in Sources */,
 				183F6809214A4B0300D3EC63 /* CompositeViewController.m in Sources */,
 				183F67FA214A4A2D00D3EC63 /* AdapterViewController.m in Sources */,
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
+				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
@@ -610,7 +650,9 @@
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,
+				183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */,
 				183F67A8214A33C100D3EC63 /* AppDelegate.m in Sources */,
+				183F6847214A680700D3EC63 /* ChinaFlag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
