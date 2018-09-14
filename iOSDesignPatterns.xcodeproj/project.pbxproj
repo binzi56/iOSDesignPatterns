@@ -50,6 +50,10 @@
 		183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686F214B514F00D3EC63 /* HuaweiBattery.m */; };
 		183F6873214B516200D3EC63 /* AppleBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6872214B516200D3EC63 /* AppleBattery.m */; };
 		183F687E214B808400D3EC63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F687D214B808400D3EC63 /* Person.m */; };
+		183F6892214B8CBC00D3EC63 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6891214B8CBC00D3EC63 /* Wine.m */; };
+		183F6895214B8D8400D3EC63 /* Whisky.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6894214B8D8400D3EC63 /* Whisky.m */; };
+		183F6898214B8DB300D3EC63 /* Brandy.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6897214B8DB300D3EC63 /* Brandy.m */; };
+		183F689C214B8DF800D3EC63 /* SellWine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F689B214B8DF800D3EC63 /* SellWine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +165,15 @@
 		183F687B214B53D700D3EC63 /* PhoneFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactoryProtocol.h; sourceTree = "<group>"; };
 		183F687C214B808400D3EC63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		183F687D214B808400D3EC63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		183F6890214B8CBC00D3EC63 /* Wine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
+		183F6891214B8CBC00D3EC63 /* Wine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
+		183F6893214B8D8400D3EC63 /* Whisky.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whisky.h; sourceTree = "<group>"; };
+		183F6894214B8D8400D3EC63 /* Whisky.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whisky.m; sourceTree = "<group>"; };
+		183F6896214B8DB300D3EC63 /* Brandy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brandy.h; sourceTree = "<group>"; };
+		183F6897214B8DB300D3EC63 /* Brandy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brandy.m; sourceTree = "<group>"; };
+		183F6899214B8DD700D3EC63 /* WineProductProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineProductProtocol.h; sourceTree = "<group>"; };
+		183F689A214B8DF700D3EC63 /* SellWine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellWine.h; sourceTree = "<group>"; };
+		183F689B214B8DF800D3EC63 /* SellWine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellWine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +316,15 @@
 			children = (
 				183F67F2214A497F00D3EC63 /* BuilderViewController.h */,
 				183F67F3214A497F00D3EC63 /* BuilderViewController.m */,
+				183F6890214B8CBC00D3EC63 /* Wine.h */,
+				183F6891214B8CBC00D3EC63 /* Wine.m */,
+				183F6893214B8D8400D3EC63 /* Whisky.h */,
+				183F6894214B8D8400D3EC63 /* Whisky.m */,
+				183F6896214B8DB300D3EC63 /* Brandy.h */,
+				183F6897214B8DB300D3EC63 /* Brandy.m */,
+				183F6899214B8DD700D3EC63 /* WineProductProtocol.h */,
+				183F689A214B8DF700D3EC63 /* SellWine.h */,
+				183F689B214B8DF800D3EC63 /* SellWine.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -735,6 +757,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F6892214B8CBC00D3EC63 /* Wine.m in Sources */,
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
 				183F687E214B808400D3EC63 /* Person.m in Sources */,
@@ -742,6 +765,7 @@
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
+				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
@@ -760,6 +784,8 @@
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
 				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
+				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
+				183F689C214B8DF800D3EC63 /* SellWine.m in Sources */,
 				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,

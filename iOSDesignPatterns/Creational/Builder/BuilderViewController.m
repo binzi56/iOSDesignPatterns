@@ -7,6 +7,9 @@
 //
 
 #import "BuilderViewController.h"
+#import "SellWine.h"
+#import "Whisky.h"
+#import "Brandy.h"
 
 @interface BuilderViewController ()
 
@@ -17,6 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Whisky *whisky = [Whisky new];
+    Brandy *brandy = [Brandy new];
+    SellWine *sell = [SellWine new];
+    sell.delegate = whisky;
+    [sell sellPrepare];
+    
+    sell.delegate = brandy;
+    [sell sellPrepare];
+    
 }
 
 - (void)didReceiveMemoryWarning {
