@@ -49,6 +49,7 @@
 		183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686A214B50CB00D3EC63 /* AppleFactory.m */; };
 		183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686F214B514F00D3EC63 /* HuaweiBattery.m */; };
 		183F6873214B516200D3EC63 /* AppleBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6872214B516200D3EC63 /* AppleBattery.m */; };
+		183F687E214B808400D3EC63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F687D214B808400D3EC63 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,8 @@
 		183F6879214B539F00D3EC63 /* PhoneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
 		183F687A214B53AE00D3EC63 /* BatteryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatteryProtocol.h; sourceTree = "<group>"; };
 		183F687B214B53D700D3EC63 /* PhoneFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactoryProtocol.h; sourceTree = "<group>"; };
+		183F687C214B808400D3EC63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		183F687D214B808400D3EC63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +312,8 @@
 			children = (
 				183F67EF214A496700D3EC63 /* SingletonViewController.h */,
 				183F67F0214A496700D3EC63 /* SingletonViewController.m */,
+				183F687C214B808400D3EC63 /* Person.h */,
+				183F687D214B808400D3EC63 /* Person.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -732,6 +737,7 @@
 			files = (
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
+				183F687E214B808400D3EC63 /* Person.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,

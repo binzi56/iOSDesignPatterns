@@ -7,6 +7,7 @@
 //
 
 #import "SingletonViewController.h"
+#import "Person.h"
 
 @interface SingletonViewController ()
 
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //这里打印一下单例的内存地址
+    Person *per1 = [Person sharedInstance];
+    Person *per2 = [[Person alloc] init];
+    Person *per3 = [per2 copy];
+    
+    
+    //看看是否是同一块内存
+    NSLog(@"per1~~~sharedInstance~~~%p", per1);
+    NSLog(@"per2~~~alloc init~~~%p", per2);
+    NSLog(@"per3~~~copy~~~%p", per3);
+
 }
 
 - (void)didReceiveMemoryWarning {

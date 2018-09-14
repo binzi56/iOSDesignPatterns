@@ -103,7 +103,7 @@ UITableViewDataSource
                               @"原型模式(Prototype)"],
                   @"class": @[@"FactoryMethodViewController",
                               @"AbstractFactoryViewController",
-                              @"SingletonViewController.h",
+                              @"SingletonViewController",
                               @"BuilderViewController",
                               @"PrototypeViewController"]},
                 @{@"title":@"结构型模式(Structural) | 7",
