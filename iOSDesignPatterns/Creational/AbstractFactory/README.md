@@ -4,7 +4,7 @@
 提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们的具体类。 
 
 ### 特点
-跟工厂方法模式对比起来，至少2条流水线。 
+跟[工厂方法模式](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/FactoryMethod)对比起来，至少2条流水线。 
 
 ### 核心角色
 * 抽象产品(PhoneProtocol,BatteryProtocol)

@@ -9,7 +9,7 @@ iOS各种设计模式实践
 ## 设计模式(`DesignPatterns`) | 23
 #### 创建型模式(`Creational`) | 5
 * [工厂方法模式(`Factory Method`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/FactoryMethod)
-* 抽象工厂模式(`Abstract Factory`)
+* [抽象工厂模式(`Abstract Factory`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/AbstractFactory)
 * 单例模式(`Singleton`)
 * 建造者模式(`Builder`)
 * 原型模式(`Prototype`)
