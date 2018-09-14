@@ -43,6 +43,12 @@
 		183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F684C214A694700D3EC63 /* ChinaFlagFactory.m */; };
 		183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F684F214A695E00D3EC63 /* AmericanFlagFactory.m */; };
 		183F6854214A71EF00D3EC63 /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6853214A71EF00D3EC63 /* Flag.m */; };
+		183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6856214B4EF100D3EC63 /* ApplePhone.m */; };
+		183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6859214B4F0600D3EC63 /* HuaweiPhone.m */; };
+		183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6867214B50B100D3EC63 /* HuaweiFactory.m */; };
+		183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686A214B50CB00D3EC63 /* AppleFactory.m */; };
+		183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686F214B514F00D3EC63 /* HuaweiBattery.m */; };
+		183F6873214B516200D3EC63 /* AppleBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6872214B516200D3EC63 /* AppleBattery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +143,21 @@
 		183F6851214A6FD500D3EC63 /* FlagProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagProtocol.h; sourceTree = "<group>"; };
 		183F6852214A71EF00D3EC63 /* Flag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
 		183F6853214A71EF00D3EC63 /* Flag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
+		183F6855214B4EF100D3EC63 /* ApplePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePhone.h; sourceTree = "<group>"; };
+		183F6856214B4EF100D3EC63 /* ApplePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePhone.m; sourceTree = "<group>"; };
+		183F6858214B4F0600D3EC63 /* HuaweiPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaweiPhone.h; sourceTree = "<group>"; };
+		183F6859214B4F0600D3EC63 /* HuaweiPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaweiPhone.m; sourceTree = "<group>"; };
+		183F6866214B50B100D3EC63 /* HuaweiFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaweiFactory.h; sourceTree = "<group>"; };
+		183F6867214B50B100D3EC63 /* HuaweiFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaweiFactory.m; sourceTree = "<group>"; };
+		183F6869214B50CB00D3EC63 /* AppleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		183F686A214B50CB00D3EC63 /* AppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		183F686E214B514F00D3EC63 /* HuaweiBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaweiBattery.h; sourceTree = "<group>"; };
+		183F686F214B514F00D3EC63 /* HuaweiBattery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaweiBattery.m; sourceTree = "<group>"; };
+		183F6871214B516200D3EC63 /* AppleBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleBattery.h; sourceTree = "<group>"; };
+		183F6872214B516200D3EC63 /* AppleBattery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleBattery.m; sourceTree = "<group>"; };
+		183F6879214B539F00D3EC63 /* PhoneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
+		183F687A214B53AE00D3EC63 /* BatteryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatteryProtocol.h; sourceTree = "<group>"; };
+		183F687B214B53D700D3EC63 /* PhoneFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactoryProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +318,9 @@
 			children = (
 				183F67EC214A494100D3EC63 /* AbstractFactoryViewController.h */,
 				183F67ED214A494100D3EC63 /* AbstractFactoryViewController.m */,
+				183F6876214B52FB00D3EC63 /* Base */,
+				183F685C214B4F5700D3EC63 /* Huawei */,
+				183F685B214B4F4900D3EC63 /* Apple */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -492,6 +516,90 @@
 			path = SimpleCode;
 			sourceTree = "<group>";
 		};
+		183F685B214B4F4900D3EC63 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				183F6864214B506E00D3EC63 /* Phone */,
+				183F6861214B500600D3EC63 /* Battery */,
+				183F6869214B50CB00D3EC63 /* AppleFactory.h */,
+				183F686A214B50CB00D3EC63 /* AppleFactory.m */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		183F685C214B4F5700D3EC63 /* Huawei */ = {
+			isa = PBXGroup;
+			children = (
+				183F6863214B506000D3EC63 /* Phone */,
+				183F6862214B503200D3EC63 /* Battery */,
+				183F6866214B50B100D3EC63 /* HuaweiFactory.h */,
+				183F6867214B50B100D3EC63 /* HuaweiFactory.m */,
+			);
+			path = Huawei;
+			sourceTree = "<group>";
+		};
+		183F6861214B500600D3EC63 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				183F6871214B516200D3EC63 /* AppleBattery.h */,
+				183F6872214B516200D3EC63 /* AppleBattery.m */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		183F6862214B503200D3EC63 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				183F686E214B514F00D3EC63 /* HuaweiBattery.h */,
+				183F686F214B514F00D3EC63 /* HuaweiBattery.m */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		183F6863214B506000D3EC63 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				183F6858214B4F0600D3EC63 /* HuaweiPhone.h */,
+				183F6859214B4F0600D3EC63 /* HuaweiPhone.m */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		183F6864214B506E00D3EC63 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				183F6855214B4EF100D3EC63 /* ApplePhone.h */,
+				183F6856214B4EF100D3EC63 /* ApplePhone.m */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		183F6876214B52FB00D3EC63 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				183F6877214B533500D3EC63 /* Phone */,
+				183F6878214B534100D3EC63 /* Battery */,
+				183F687B214B53D700D3EC63 /* PhoneFactoryProtocol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		183F6877214B533500D3EC63 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				183F6879214B539F00D3EC63 /* PhoneProtocol.h */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		183F6878214B534100D3EC63 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				183F687A214B53AE00D3EC63 /* BatteryProtocol.h */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -622,6 +730,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
@@ -630,6 +739,7 @@
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
+				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
@@ -640,7 +750,11 @@
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
 				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
+				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
+				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
+				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
+				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,
 				183F681C214A4BE100D3EC63 /* TemplateMethodViewController.m in Sources */,
