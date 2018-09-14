@@ -11,7 +11,7 @@ iOS各种设计模式实践
 * [工厂方法模式(`Factory Method`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/FactoryMethod)
 * [抽象工厂模式(`Abstract Factory`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/AbstractFactory)
 * [单例模式(`Singleton`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/Singleton)
-* 建造者模式(`Builder`)
+* [建造者模式(`Builder`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/Builder)
 * 原型模式(`Prototype`)
 #### 结构型模式(`Structural`) | 7
 * 适配器模式(`Adapter`)
