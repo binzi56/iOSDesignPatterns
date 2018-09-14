@@ -49,11 +49,12 @@
 		183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686A214B50CB00D3EC63 /* AppleFactory.m */; };
 		183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F686F214B514F00D3EC63 /* HuaweiBattery.m */; };
 		183F6873214B516200D3EC63 /* AppleBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6872214B516200D3EC63 /* AppleBattery.m */; };
-		183F687E214B808400D3EC63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F687D214B808400D3EC63 /* Person.m */; };
 		183F6892214B8CBC00D3EC63 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6891214B8CBC00D3EC63 /* Wine.m */; };
 		183F6895214B8D8400D3EC63 /* Whisky.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6894214B8D8400D3EC63 /* Whisky.m */; };
 		183F6898214B8DB300D3EC63 /* Brandy.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6897214B8DB300D3EC63 /* Brandy.m */; };
 		183F689C214B8DF800D3EC63 /* SellWine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F689B214B8DF800D3EC63 /* SellWine.m */; };
+		183F689F214B985100D3EC63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F689E214B985100D3EC63 /* Person.m */; };
+		183F68A3214BA44300D3EC63 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F68A2214BA44300D3EC63 /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,8 +164,6 @@
 		183F6879214B539F00D3EC63 /* PhoneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
 		183F687A214B53AE00D3EC63 /* BatteryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatteryProtocol.h; sourceTree = "<group>"; };
 		183F687B214B53D700D3EC63 /* PhoneFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactoryProtocol.h; sourceTree = "<group>"; };
-		183F687C214B808400D3EC63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		183F687D214B808400D3EC63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		183F6890214B8CBC00D3EC63 /* Wine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
 		183F6891214B8CBC00D3EC63 /* Wine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
 		183F6893214B8D8400D3EC63 /* Whisky.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whisky.h; sourceTree = "<group>"; };
@@ -174,6 +173,11 @@
 		183F6899214B8DD700D3EC63 /* WineProductProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineProductProtocol.h; sourceTree = "<group>"; };
 		183F689A214B8DF700D3EC63 /* SellWine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellWine.h; sourceTree = "<group>"; };
 		183F689B214B8DF800D3EC63 /* SellWine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellWine.m; sourceTree = "<group>"; };
+		183F689D214B985100D3EC63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		183F689E214B985100D3EC63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		183F68A0214B986D00D3EC63 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		183F68A1214BA44300D3EC63 /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		183F68A2214BA44300D3EC63 /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,9 @@
 			children = (
 				183F67F5214A499500D3EC63 /* PrototypeViewController.h */,
 				183F67F6214A499500D3EC63 /* PrototypeViewController.m */,
+				183F689D214B985100D3EC63 /* Person.h */,
+				183F689E214B985100D3EC63 /* Person.m */,
+				183F68A0214B986D00D3EC63 /* PersonProtocol.h */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -334,8 +341,8 @@
 			children = (
 				183F67EF214A496700D3EC63 /* SingletonViewController.h */,
 				183F67F0214A496700D3EC63 /* SingletonViewController.m */,
-				183F687C214B808400D3EC63 /* Person.h */,
-				183F687D214B808400D3EC63 /* Person.m */,
+				183F68A1214BA44300D3EC63 /* Human.h */,
+				183F68A2214BA44300D3EC63 /* Human.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -760,7 +767,6 @@
 				183F6892214B8CBC00D3EC63 /* Wine.m in Sources */,
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
-				183F687E214B808400D3EC63 /* Person.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
@@ -775,6 +781,7 @@
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
 				183F6819214A4BBE00D3EC63 /* StrategyViewController.m in Sources */,
 				183F681F214A4C1A00D3EC63 /* ObserverViewController.m in Sources */,
+				183F689F214B985100D3EC63 /* Person.m in Sources */,
 				183F6809214A4B0300D3EC63 /* CompositeViewController.m in Sources */,
 				183F67FA214A4A2D00D3EC63 /* AdapterViewController.m in Sources */,
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
@@ -795,6 +802,7 @@
 				183F67AB214A33C100D3EC63 /* ViewController.m in Sources */,
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
+				183F68A3214BA44300D3EC63 /* Human.m in Sources */,
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,
 				183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */,
 				183F67A8214A33C100D3EC63 /* AppDelegate.m in Sources */,

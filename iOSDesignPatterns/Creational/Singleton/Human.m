@@ -1,15 +1,15 @@
 //
-//  Person.m
+//  Human.m
 //  iOSDesignPatterns
 //
 //  Created by 帅斌 on 2018/9/14.
 //  Copyright © 2018年 personal. All rights reserved.
 //
 
-#import "Person.h"
+#import "Human.h"
 
-static Person * _per = nil;
-@implementation Person
+static Human * _per = nil;
+@implementation Human
 
 +(instancetype)allocWithZone:(struct _NSZone *)zone
 {
@@ -37,5 +37,4 @@ static Person * _per = nil;
 {
     return _per;
 }
-
 @end

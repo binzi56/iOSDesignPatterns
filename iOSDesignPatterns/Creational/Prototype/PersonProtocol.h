@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  PersonProtocol.h
 //  iOSDesignPatterns
 //
 //  Created by 帅斌 on 2018/9/14.
@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@protocol PersonProtocol <NSObject>
 
-+(instancetype)sharedInstance;
+- (instancetype)initWithName:(NSString *)name;
+
+-(void)addBook:(NSString *)bookName;
 
 @end

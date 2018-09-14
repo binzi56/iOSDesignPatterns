@@ -7,7 +7,7 @@
 //
 
 #import "SingletonViewController.h"
-#import "Person.h"
+#import "Human.h"
 
 @interface SingletonViewController ()
 
@@ -19,9 +19,9 @@
     [super viewDidLoad];
     
     //这里打印一下单例的内存地址
-    Person *per1 = [Person sharedInstance];
-    Person *per2 = [[Person alloc] init];
-    Person *per3 = [per2 copy];
+    Human *per1 = [Human sharedInstance];
+    Human *per2 = [[Human alloc] init];
+    Human *per3 = [per2 copy];
     
     
     //看看是否是同一块内存

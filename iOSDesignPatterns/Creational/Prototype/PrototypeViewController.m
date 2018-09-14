@@ -7,6 +7,7 @@
 //
 
 #import "PrototypeViewController.h"
+#import "Person.h"
 
 @interface PrototypeViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //Jack
+    Person *jack = [[Person alloc] initWithName:@"Jack"];
+    [jack addBook:@"泰坦尼克号"];
+    
+    //Rose
+    Person *rose = [jack copy];
+    [rose addBook:@"七个小矮人"];
+    
+    NSLog(@"jack内存地址:%p\nrose内存地址:%p", jack, rose);
 }
 
 - (void)didReceiveMemoryWarning {
