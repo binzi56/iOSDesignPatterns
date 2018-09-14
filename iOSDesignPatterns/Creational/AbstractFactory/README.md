@@ -13,4 +13,4 @@
 * 具体工厂(HuaweiFactory,AppleFactory)
 
 ### UML
-![Abstract Factory UML](https://upload-images.jianshu.io/upload_images/1893416-32ead22e53d64abc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Abstract Factory UML](https://upload-images.jianshu.io/upload_images/1893416-5bfa9f2580bff729.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
