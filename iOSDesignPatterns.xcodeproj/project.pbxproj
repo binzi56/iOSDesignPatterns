@@ -68,6 +68,13 @@
 		183F6956214D50A900D3EC63 /* CookingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6955214D50A900D3EC63 /* CookingManager.m */; };
 		183F6959214D50CA00D3EC63 /* Tableware.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6958214D50CA00D3EC63 /* Tableware.m */; };
 		183F695C214D50E300D3EC63 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F695B214D50E300D3EC63 /* Food.m */; };
+		183F695F214D5B3300D3EC63 /* MilkTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F695E214D5B3300D3EC63 /* MilkTea.m */; };
+		183F6962214D5B7E00D3EC63 /* MilkTeaAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6961214D5B7E00D3EC63 /* MilkTeaAdds.m */; };
+		183F6966214D5C9700D3EC63 /* BigCupTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6965214D5C9700D3EC63 /* BigCupTea.m */; };
+		183F6969214D5CBD00D3EC63 /* MediumCupTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6968214D5CBD00D3EC63 /* MediumCupTea.m */; };
+		183F696C214D5CCF00D3EC63 /* SmallMilkTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F696B214D5CCF00D3EC63 /* SmallMilkTea.m */; };
+		183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F696F214D5DAC00D3EC63 /* IceAdds.m */; };
+		183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6972214D5DCF00D3EC63 /* SugarAdds.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +227,20 @@
 		183F6958214D50CA00D3EC63 /* Tableware.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tableware.m; sourceTree = "<group>"; };
 		183F695A214D50E300D3EC63 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		183F695B214D50E300D3EC63 /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		183F695D214D5B3300D3EC63 /* MilkTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MilkTea.h; sourceTree = "<group>"; };
+		183F695E214D5B3300D3EC63 /* MilkTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkTea.m; sourceTree = "<group>"; };
+		183F6960214D5B7E00D3EC63 /* MilkTeaAdds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MilkTeaAdds.h; sourceTree = "<group>"; };
+		183F6961214D5B7E00D3EC63 /* MilkTeaAdds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkTeaAdds.m; sourceTree = "<group>"; };
+		183F6964214D5C9700D3EC63 /* BigCupTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigCupTea.h; sourceTree = "<group>"; };
+		183F6965214D5C9700D3EC63 /* BigCupTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigCupTea.m; sourceTree = "<group>"; };
+		183F6967214D5CBD00D3EC63 /* MediumCupTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediumCupTea.h; sourceTree = "<group>"; };
+		183F6968214D5CBD00D3EC63 /* MediumCupTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediumCupTea.m; sourceTree = "<group>"; };
+		183F696A214D5CCF00D3EC63 /* SmallMilkTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallMilkTea.h; sourceTree = "<group>"; };
+		183F696B214D5CCF00D3EC63 /* SmallMilkTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallMilkTea.m; sourceTree = "<group>"; };
+		183F696E214D5DAC00D3EC63 /* IceAdds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IceAdds.h; sourceTree = "<group>"; };
+		183F696F214D5DAC00D3EC63 /* IceAdds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceAdds.m; sourceTree = "<group>"; };
+		183F6971214D5DCF00D3EC63 /* SugarAdds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugarAdds.h; sourceTree = "<group>"; };
+		183F6972214D5DCF00D3EC63 /* SugarAdds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarAdds.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +455,12 @@
 			children = (
 				183F6804214A4AD100D3EC63 /* BridgeViewController.h */,
 				183F6805214A4AD100D3EC63 /* BridgeViewController.m */,
+				183F6960214D5B7E00D3EC63 /* MilkTeaAdds.h */,
+				183F6961214D5B7E00D3EC63 /* MilkTeaAdds.m */,
+				183F695D214D5B3300D3EC63 /* MilkTea.h */,
+				183F695E214D5B3300D3EC63 /* MilkTea.m */,
+				183F696D214D5D8600D3EC63 /* MilkAdds */,
+				183F6963214D5C7300D3EC63 /* TeaSize */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -737,6 +764,30 @@
 			path = SimpleCode;
 			sourceTree = "<group>";
 		};
+		183F6963214D5C7300D3EC63 /* TeaSize */ = {
+			isa = PBXGroup;
+			children = (
+				183F6964214D5C9700D3EC63 /* BigCupTea.h */,
+				183F6965214D5C9700D3EC63 /* BigCupTea.m */,
+				183F6967214D5CBD00D3EC63 /* MediumCupTea.h */,
+				183F6968214D5CBD00D3EC63 /* MediumCupTea.m */,
+				183F696A214D5CCF00D3EC63 /* SmallMilkTea.h */,
+				183F696B214D5CCF00D3EC63 /* SmallMilkTea.m */,
+			);
+			path = TeaSize;
+			sourceTree = "<group>";
+		};
+		183F696D214D5D8600D3EC63 /* MilkAdds */ = {
+			isa = PBXGroup;
+			children = (
+				183F696E214D5DAC00D3EC63 /* IceAdds.h */,
+				183F696F214D5DAC00D3EC63 /* IceAdds.m */,
+				183F6971214D5DCF00D3EC63 /* SugarAdds.h */,
+				183F6972214D5DCF00D3EC63 /* SugarAdds.m */,
+			);
+			path = MilkAdds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -879,10 +930,12 @@
 				183F694E214D467C00D3EC63 /* ProTeacher.m in Sources */,
 				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
 				183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */,
+				183F6966214D5C9700D3EC63 /* BigCupTea.m in Sources */,
 				183F6940214D0F1400D3EC63 /* StaticPhone.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
+				183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */,
 				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
@@ -897,21 +950,26 @@
 				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,
 				183F694A214D144700D3EC63 /* DecPhone.m in Sources */,
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
+				183F695F214D5B3300D3EC63 /* MilkTea.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
 				183F693D214D024800D3EC63 /* TableViewDataSource.m in Sources */,
 				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
+				183F6962214D5B7E00D3EC63 /* MilkTeaAdds.m in Sources */,
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
 				183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */,
+				183F6969214D5CBD00D3EC63 /* MediumCupTea.m in Sources */,
 				183F689C214B8DF800D3EC63 /* SellWine.m in Sources */,
 				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
+				183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,
 				183F6956214D50A900D3EC63 /* CookingManager.m in Sources */,
 				183F681C214A4BE100D3EC63 /* TemplateMethodViewController.m in Sources */,
 				183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */,
 				183F682E214A4CB900D3EC63 /* MementoViewController.m in Sources */,
+				183F696C214D5CCF00D3EC63 /* SmallMilkTea.m in Sources */,
 				183F67AB214A33C100D3EC63 /* ViewController.m in Sources */,
 				183F6933214CFFC700D3EC63 /* BaseAdapter.m in Sources */,
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,

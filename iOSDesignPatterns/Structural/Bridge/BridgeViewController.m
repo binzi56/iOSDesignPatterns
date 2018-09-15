@@ -7,6 +7,9 @@
 //
 
 #import "BridgeViewController.h"
+#import "IceAdds.h"
+#import "MediumCupTea.h"
+
 
 @interface BridgeViewController ()
 
@@ -17,6 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    IceAdds *iceAdds = [IceAdds new];
+    MediumCupTea *mediumTea = [MediumCupTea new];
+    mediumTea.adds = iceAdds;
+    [mediumTea makeCoffee];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
