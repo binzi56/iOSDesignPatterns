@@ -55,6 +55,10 @@
 		183F689C214B8DF800D3EC63 /* SellWine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F689B214B8DF800D3EC63 /* SellWine.m */; };
 		183F689F214B985100D3EC63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F689E214B985100D3EC63 /* Person.m */; };
 		183F68A3214BA44300D3EC63 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F68A2214BA44300D3EC63 /* Human.m */; };
+		183F6933214CFFC700D3EC63 /* BaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6932214CFFC700D3EC63 /* BaseAdapter.m */; };
+		183F6936214D004000D3EC63 /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6935214D004000D3EC63 /* Adapter.m */; };
+		183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6939214D01A300D3EC63 /* BaseTableViewDataSource.m */; };
+		183F693D214D024800D3EC63 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F693C214D024800D3EC63 /* TableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +182,15 @@
 		183F68A0214B986D00D3EC63 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
 		183F68A1214BA44300D3EC63 /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
 		183F68A2214BA44300D3EC63 /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		183F6931214CFFC700D3EC63 /* BaseAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAdapter.h; sourceTree = "<group>"; };
+		183F6932214CFFC700D3EC63 /* BaseAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAdapter.m; sourceTree = "<group>"; };
+		183F6934214D004000D3EC63 /* Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		183F6935214D004000D3EC63 /* Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		183F6937214D008000D3EC63 /* AdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterProtocol.h; sourceTree = "<group>"; };
+		183F6938214D01A300D3EC63 /* BaseTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDataSource.h; sourceTree = "<group>"; };
+		183F6939214D01A300D3EC63 /* BaseTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDataSource.m; sourceTree = "<group>"; };
+		183F693B214D024700D3EC63 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		183F693C214D024800D3EC63 /* TableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +439,8 @@
 		183F67E8214A48EC00D3EC63 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				183F6930214CFF1B00D3EC63 /* TableViewDataSource */,
+				183F692F214CFF0900D3EC63 /* SimpleCode */,
 				183F67F8214A4A2D00D3EC63 /* AdapterViewController.h */,
 				183F67F9214A4A2D00D3EC63 /* AdapterViewController.m */,
 			);
@@ -634,6 +649,29 @@
 			path = Battery;
 			sourceTree = "<group>";
 		};
+		183F692F214CFF0900D3EC63 /* SimpleCode */ = {
+			isa = PBXGroup;
+			children = (
+				183F6937214D008000D3EC63 /* AdapterProtocol.h */,
+				183F6934214D004000D3EC63 /* Adapter.h */,
+				183F6935214D004000D3EC63 /* Adapter.m */,
+				183F6931214CFFC700D3EC63 /* BaseAdapter.h */,
+				183F6932214CFFC700D3EC63 /* BaseAdapter.m */,
+			);
+			path = SimpleCode;
+			sourceTree = "<group>";
+		};
+		183F6930214CFF1B00D3EC63 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				183F6938214D01A300D3EC63 /* BaseTableViewDataSource.h */,
+				183F6939214D01A300D3EC63 /* BaseTableViewDataSource.m */,
+				183F693B214D024700D3EC63 /* TableViewDataSource.h */,
+				183F693C214D024800D3EC63 /* TableViewDataSource.m */,
+			);
+			path = TableViewDataSource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -764,6 +802,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F6936214D004000D3EC63 /* Adapter.m in Sources */,
 				183F6892214B8CBC00D3EC63 /* Wine.m in Sources */,
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
@@ -772,6 +811,7 @@
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
 				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
+				183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
@@ -789,6 +829,7 @@
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
+				183F693D214D024800D3EC63 /* TableViewDataSource.m in Sources */,
 				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
@@ -800,6 +841,7 @@
 				183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */,
 				183F682E214A4CB900D3EC63 /* MementoViewController.m in Sources */,
 				183F67AB214A33C100D3EC63 /* ViewController.m in Sources */,
+				183F6933214CFFC700D3EC63 /* BaseAdapter.m in Sources */,
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
 				183F68A3214BA44300D3EC63 /* Human.m in Sources */,

@@ -107,7 +107,7 @@ UITableViewDataSource
                               @"BuilderViewController",
                               @"PrototypeViewController"]},
                 @{@"title":@"结构型模式(Structural) | 7",
-                  @"value": @[@"配器模式(Adapter)",
+                  @"value": @[@"适配器模式(Adapter)",
                               @"装饰模式(Decrator)",
                               @"代理模式(Proxy)",
                               @"外观模式(Facade)",

@@ -7,8 +7,13 @@
 //
 
 #import "AdapterViewController.h"
+#import "Adapter.h"
+#import "TableViewDataSource.h"
 
 @interface AdapterViewController ()
+
+@property (nonatomic, strong) UITableView *table;
+@property (nonatomic, strong) TableViewDataSource *dataSource;
 
 @end
 
@@ -17,6 +22,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    //simpleCode
+    Adapter *adapter = [[Adapter alloc] init];
+    NSLog(@"获取到的所有信息为:%@", [adapter getAllMessage]);
+    
+    //tableView
+    self.table = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    [self.view addSubview:_table];
+    
+    self.dataSource = [TableViewDataSource new];
+    self.table.delegate = _dataSource;
+    self.table.dataSource = _dataSource;
+    
 }
 
 - (void)didReceiveMemoryWarning {
