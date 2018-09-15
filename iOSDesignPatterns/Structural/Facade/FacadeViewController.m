@@ -7,6 +7,7 @@
 //
 
 #import "FacadeViewController.h"
+#import "CookingManager.h"
 
 @interface FacadeViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    CookingManager *manager = [CookingManager new];
+    [manager cookChives];
+    [manager cookVegetarianDish];
 }
 
 - (void)didReceiveMemoryWarning {

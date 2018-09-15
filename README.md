@@ -17,8 +17,8 @@ iOS各种设计模式实践
 * [适配器模式(`Adapter`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Adapter)
 * [装饰模式(`Decrator`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Decrator)
 * [代理模式(`Proxy`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Proxy)
-* 外观模式(`Facade`)
-* 桥接模式(`Bridge`)
+* [外观模式(`Facade`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Facade)
+* [桥接模式(`Bridge`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Bridge)
 * 组合模式(`Composite`)
 * 享元模式(`Flyweight`)
 #### 行为型模式(`Behavioral`) | 11
