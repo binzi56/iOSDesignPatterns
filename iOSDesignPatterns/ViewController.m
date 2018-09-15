@@ -35,7 +35,7 @@ UITableViewDataSource
     NSString *className = classArr[indexPath.row];
     
     UIViewController *subViewController = [[NSClassFromString(className) alloc] init];
-    subViewController.title = valueArr[indexPath.section];
+    subViewController.title = valueArr[indexPath.row];
     
     [self.navigationController pushViewController:subViewController animated:YES];
 }
@@ -117,7 +117,7 @@ UITableViewDataSource
                               ],
                   @"class": @[@"AdapterViewController",
                               @"DecratorViewController",
-                              @"PrototypeViewController",
+                              @"ProxyViewController",
                               @"FacadeViewController",
                               @"BridgeViewController",
                               @"CompositeViewController",

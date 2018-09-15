@@ -7,6 +7,8 @@
 //
 
 #import "ProxyViewController.h"
+#import "ProTeacherA.h"
+
 
 @interface ProxyViewController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    ProTeacherA *teacherA = [ProTeacherA new];
+    [teacherA haveAClass];
+    [teacherA getOutOfClass];
 }
 
 - (void)didReceiveMemoryWarning {

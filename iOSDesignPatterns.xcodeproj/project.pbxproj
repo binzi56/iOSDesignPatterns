@@ -63,6 +63,8 @@
 		183F6944214D111500D3EC63 /* DecHuweiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6943214D111500D3EC63 /* DecHuweiPhone.m */; };
 		183F6947214D112D00D3EC63 /* DecApplePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6946214D112D00D3EC63 /* DecApplePhone.m */; };
 		183F694A214D144700D3EC63 /* DecPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6949214D144700D3EC63 /* DecPhone.m */; };
+		183F694E214D467C00D3EC63 /* ProTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F694D214D467C00D3EC63 /* ProTeacher.m */; };
+		183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6951214D476C00D3EC63 /* ProTeacherA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +206,11 @@
 		183F6946214D112D00D3EC63 /* DecApplePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecApplePhone.m; sourceTree = "<group>"; };
 		183F6948214D144700D3EC63 /* DecPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecPhone.h; sourceTree = "<group>"; };
 		183F6949214D144700D3EC63 /* DecPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecPhone.m; sourceTree = "<group>"; };
+		183F694C214D467C00D3EC63 /* ProTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProTeacher.h; sourceTree = "<group>"; };
+		183F694D214D467C00D3EC63 /* ProTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProTeacher.m; sourceTree = "<group>"; };
+		183F694F214D468C00D3EC63 /* ProTeacherProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProTeacherProtocol.h; sourceTree = "<group>"; };
+		183F6950214D476B00D3EC63 /* ProTeacherA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProTeacherA.h; sourceTree = "<group>"; };
+		183F6951214D476C00D3EC63 /* ProTeacherA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProTeacherA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +443,7 @@
 			children = (
 				183F67FE214A4A6C00D3EC63 /* ProxyViewController.h */,
 				183F67FF214A4A6C00D3EC63 /* ProxyViewController.m */,
+				183F694B214D450800D3EC63 /* SimpleCode */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -694,6 +702,18 @@
 			path = TableViewDataSource;
 			sourceTree = "<group>";
 		};
+		183F694B214D450800D3EC63 /* SimpleCode */ = {
+			isa = PBXGroup;
+			children = (
+				183F694F214D468C00D3EC63 /* ProTeacherProtocol.h */,
+				183F694C214D467C00D3EC63 /* ProTeacher.h */,
+				183F694D214D467C00D3EC63 /* ProTeacher.m */,
+				183F6950214D476B00D3EC63 /* ProTeacherA.h */,
+				183F6951214D476C00D3EC63 /* ProTeacherA.m */,
+			);
+			path = SimpleCode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -832,6 +852,7 @@
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
+				183F694E214D467C00D3EC63 /* ProTeacher.m in Sources */,
 				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
 				183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */,
 				183F6940214D0F1400D3EC63 /* StaticPhone.m in Sources */,
@@ -858,6 +879,7 @@
 				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
+				183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */,
 				183F689C214B8DF800D3EC63 /* SellWine.m in Sources */,
 				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
