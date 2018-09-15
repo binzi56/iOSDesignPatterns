@@ -5,6 +5,7 @@
 ![设计模式结构图](https://upload-images.jianshu.io/upload_images/1893416-cfef4cca51c78ece.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 iOS各种设计模式实践
+概念 | 特点 | 核心角色 | UML
 
 ## 设计模式(`DesignPatterns`) | 23
 #### 创建型模式(`Creational`) | 5
