@@ -59,6 +59,10 @@
 		183F6936214D004000D3EC63 /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6935214D004000D3EC63 /* Adapter.m */; };
 		183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6939214D01A300D3EC63 /* BaseTableViewDataSource.m */; };
 		183F693D214D024800D3EC63 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F693C214D024800D3EC63 /* TableViewDataSource.m */; };
+		183F6940214D0F1400D3EC63 /* StaticPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F693F214D0F1400D3EC63 /* StaticPhone.m */; };
+		183F6944214D111500D3EC63 /* DecHuweiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6943214D111500D3EC63 /* DecHuweiPhone.m */; };
+		183F6947214D112D00D3EC63 /* DecApplePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6946214D112D00D3EC63 /* DecApplePhone.m */; };
+		183F694A214D144700D3EC63 /* DecPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6949214D144700D3EC63 /* DecPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +195,15 @@
 		183F6939214D01A300D3EC63 /* BaseTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDataSource.m; sourceTree = "<group>"; };
 		183F693B214D024700D3EC63 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
 		183F693C214D024800D3EC63 /* TableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		183F693E214D0F1300D3EC63 /* StaticPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticPhone.h; sourceTree = "<group>"; };
+		183F693F214D0F1400D3EC63 /* StaticPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticPhone.m; sourceTree = "<group>"; };
+		183F6941214D0F3100D3EC63 /* StaticPhoneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticPhoneProtocol.h; sourceTree = "<group>"; };
+		183F6942214D111500D3EC63 /* DecHuweiPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecHuweiPhone.h; sourceTree = "<group>"; };
+		183F6943214D111500D3EC63 /* DecHuweiPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecHuweiPhone.m; sourceTree = "<group>"; };
+		183F6945214D112D00D3EC63 /* DecApplePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecApplePhone.h; sourceTree = "<group>"; };
+		183F6946214D112D00D3EC63 /* DecApplePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecApplePhone.m; sourceTree = "<group>"; };
+		183F6948214D144700D3EC63 /* DecPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecPhone.h; sourceTree = "<group>"; };
+		183F6949214D144700D3EC63 /* DecPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +445,15 @@
 			children = (
 				183F67FB214A4A5000D3EC63 /* DecratorViewController.h */,
 				183F67FC214A4A5000D3EC63 /* DecratorViewController.m */,
+				183F6941214D0F3100D3EC63 /* StaticPhoneProtocol.h */,
+				183F693E214D0F1300D3EC63 /* StaticPhone.h */,
+				183F693F214D0F1400D3EC63 /* StaticPhone.m */,
+				183F6948214D144700D3EC63 /* DecPhone.h */,
+				183F6949214D144700D3EC63 /* DecPhone.m */,
+				183F6942214D111500D3EC63 /* DecHuweiPhone.h */,
+				183F6943214D111500D3EC63 /* DecHuweiPhone.m */,
+				183F6945214D112D00D3EC63 /* DecApplePhone.h */,
+				183F6946214D112D00D3EC63 /* DecApplePhone.m */,
 			);
 			path = Decrator;
 			sourceTree = "<group>";
@@ -812,6 +834,7 @@
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
 				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
 				183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */,
+				183F6940214D0F1400D3EC63 /* StaticPhone.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
@@ -825,7 +848,9 @@
 				183F6809214A4B0300D3EC63 /* CompositeViewController.m in Sources */,
 				183F67FA214A4A2D00D3EC63 /* AdapterViewController.m in Sources */,
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
+				183F6947214D112D00D3EC63 /* DecApplePhone.m in Sources */,
 				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,
+				183F694A214D144700D3EC63 /* DecPhone.m in Sources */,
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
@@ -847,6 +872,7 @@
 				183F68A3214BA44300D3EC63 /* Human.m in Sources */,
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,
 				183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */,
+				183F6944214D111500D3EC63 /* DecHuweiPhone.m in Sources */,
 				183F67A8214A33C100D3EC63 /* AppDelegate.m in Sources */,
 				183F6847214A680700D3EC63 /* ChinaFlag.m in Sources */,
 			);

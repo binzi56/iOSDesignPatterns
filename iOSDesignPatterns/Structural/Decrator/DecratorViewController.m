@@ -7,6 +7,8 @@
 //
 
 #import "DecratorViewController.h"
+#import "DecApplePhone.h"
+#import "DecHuweiPhone.h"
 
 @interface DecratorViewController ()
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    DecApplePhone *apple = [DecApplePhone new];
+    [apple open];
+    
+    DecHuweiPhone *huawei = [DecHuweiPhone new];
+    [huawei open];
+    
 }
 
 - (void)didReceiveMemoryWarning {
