@@ -15,7 +15,7 @@ iOS各种设计模式实践
 * [原型模式(`Prototype`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Creational/Prototype)
 #### 结构型模式(`Structural`) | 7
 * [适配器模式(`Adapter`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Adapter)
-* 装饰模式(`Decrator`)
+* [装饰模式(`Decrator`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Decrator)
 * 代理模式(`Proxy`)
 * 外观模式(`Facade`)
 * 桥接模式(`Bridge`)
