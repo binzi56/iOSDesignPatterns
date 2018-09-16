@@ -23,7 +23,7 @@ iOS各种设计模式实践
 * [组合模式(`Composite`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Composite)
 * [享元模式(`Flyweight`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Flyweight)
 #### 行为型模式(`Behavioral`) | 11
-* 策略模式(`Strategy`)
+* [策略模式(`Strategy`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Behavioral/Strategy)
 * 模板方法模式(`Template Method`)
 * 观察者模式(`Observer`)
 * 迭代器模式(`Iterator`)

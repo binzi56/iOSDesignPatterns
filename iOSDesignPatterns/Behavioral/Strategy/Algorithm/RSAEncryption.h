@@ -1,5 +1,5 @@
 //
-//  ComputerFactory.h
+//  RSAEncryption.h
 //  iOSDesignPatterns
 //
 //  Created by 帅斌 on 2018/9/16.
@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Computer.h"
+#import "AlgorithmProtocol.h"
 
-@interface ComputerFactory : NSObject
-
-- (Computer *)computerWithDiskCache:(NSString *)diskCache;
+@interface RSAEncryption : NSObject<AlgorithmProtocol>
 
 @end

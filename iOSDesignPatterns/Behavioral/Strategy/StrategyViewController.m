@@ -7,6 +7,8 @@
 //
 
 #import "StrategyViewController.h"
+#import "AlgorithmProtocol.h"
+#import "RSAEncryption.h"
 
 @interface StrategyViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    id<AlgorithmProtocol> encrype = [[RSAEncryption alloc] init];
+    [encrype encrypt:@"A" key:@"3J42J42J23KF34G" iv:nil];
 }
 
 - (void)didReceiveMemoryWarning {

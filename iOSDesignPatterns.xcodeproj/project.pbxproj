@@ -81,6 +81,8 @@
 		183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F697F214E8AA000D3EC63 /* RoseDB.m */; };
 		183F6983214E95CF00D3EC63 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6982214E95CF00D3EC63 /* Computer.m */; };
 		183F6987214E988700D3EC63 /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6986214E988700D3EC63 /* ComputerFactory.m */; };
+		183F698C214EA7C400D3EC63 /* DESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F698B214EA7C400D3EC63 /* DESEncryption.m */; };
+		183F6990214EA82B00D3EC63 /* RSAEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F698F214EA82B00D3EC63 /* RSAEncryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +263,11 @@
 		183F6984214E95E200D3EC63 /* ComputerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerProtocol.h; sourceTree = "<group>"; };
 		183F6985214E988700D3EC63 /* ComputerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerFactory.h; sourceTree = "<group>"; };
 		183F6986214E988700D3EC63 /* ComputerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerFactory.m; sourceTree = "<group>"; };
+		183F698A214EA7C400D3EC63 /* DESEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DESEncryption.h; sourceTree = "<group>"; };
+		183F698B214EA7C400D3EC63 /* DESEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DESEncryption.m; sourceTree = "<group>"; };
+		183F698D214EA7E600D3EC63 /* AlgorithmProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmProtocol.h; sourceTree = "<group>"; };
+		183F698E214EA82B00D3EC63 /* RSAEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
+		183F698F214EA82B00D3EC63 /* RSAEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAEncryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -634,6 +641,7 @@
 			children = (
 				183F6817214A4BBE00D3EC63 /* StrategyViewController.h */,
 				183F6818214A4BBE00D3EC63 /* StrategyViewController.m */,
+				183F6988214EA77D00D3EC63 /* Algorithm */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -822,6 +830,18 @@
 			path = MilkAdds;
 			sourceTree = "<group>";
 		};
+		183F6988214EA77D00D3EC63 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				183F698D214EA7E600D3EC63 /* AlgorithmProtocol.h */,
+				183F698A214EA7C400D3EC63 /* DESEncryption.h */,
+				183F698B214EA7C400D3EC63 /* DESEncryption.m */,
+				183F698E214EA82B00D3EC63 /* RSAEncryption.h */,
+				183F698F214EA82B00D3EC63 /* RSAEncryption.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -973,6 +993,7 @@
 				183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */,
 				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
+				183F698C214EA7C400D3EC63 /* DESEncryption.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
 				183F6819214A4BBE00D3EC63 /* StrategyViewController.m in Sources */,
@@ -981,6 +1002,7 @@
 				183F6809214A4B0300D3EC63 /* CompositeViewController.m in Sources */,
 				183F67FA214A4A2D00D3EC63 /* AdapterViewController.m in Sources */,
 				183F6976214E861D00D3EC63 /* HumanSqliteDB.m in Sources */,
+				183F6990214EA82B00D3EC63 /* RSAEncryption.m in Sources */,
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
 				183F6947214D112D00D3EC63 /* DecApplePhone.m in Sources */,
 				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,

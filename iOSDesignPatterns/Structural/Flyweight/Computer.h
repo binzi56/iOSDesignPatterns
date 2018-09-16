@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ComputerProtocol.h"
 
-@interface Computer : NSObject
+@interface Computer : NSObject<ComputerProtocol>
 
 @property (nonatomic, strong) NSString *diskCache;
 
