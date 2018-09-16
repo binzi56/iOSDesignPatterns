@@ -7,6 +7,7 @@
 //
 
 #import "CompositeViewController.h"
+#import "JackDB.h"
 
 @interface CompositeViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    JackDB *jack = [[JackDB alloc] initWithHumanDBName:@"Jack"];
+    [jack addDBData:[[JackDB alloc] initWithHumanDBName:@"James"]];
+    [jack addDBData:[[JackDB alloc] initWithHumanDBName:@"Same"]];
+    [jack addDBData:[[JackDB alloc] initWithHumanDBName:@"Rose"]];
+
+    [jack removeDBData:[[JackDB alloc] initWithHumanDBName:@"Rose"]];
+    
+    [jack searchAllDBData];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -20,8 +20,8 @@ iOS各种设计模式实践
 * [代理模式(`Proxy`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Proxy)
 * [外观模式(`Facade`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Facade)
 * [桥接模式(`Bridge`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Bridge)
-* 组合模式(`Composite`)
-* 享元模式(`Flyweight`)
+* [组合模式(`Composite`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Composite)
+* [享元模式(`Flyweight`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Structural/Flyweight)
 #### 行为型模式(`Behavioral`) | 11
 * 策略模式(`Strategy`)
 * 模板方法模式(`Template Method`)
