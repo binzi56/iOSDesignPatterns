@@ -85,6 +85,7 @@
 		183F6990214EA82B00D3EC63 /* RSAEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F698F214EA82B00D3EC63 /* RSAEncryption.m */; };
 		183F6993214EB12300D3EC63 /* GetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6992214EB12300D3EC63 /* GetUpBed.m */; };
 		183F6996214EB29D00D3EC63 /* JackGetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6995214EB29D00D3EC63 /* JackGetUpBed.m */; };
+		183F6999214EB6F100D3EC63 /* DeliciousFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6998214EB6F100D3EC63 /* DeliciousFood.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,8 @@
 		183F6992214EB12300D3EC63 /* GetUpBed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUpBed.m; sourceTree = "<group>"; };
 		183F6994214EB29D00D3EC63 /* JackGetUpBed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JackGetUpBed.h; sourceTree = "<group>"; };
 		183F6995214EB29D00D3EC63 /* JackGetUpBed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackGetUpBed.m; sourceTree = "<group>"; };
+		183F6997214EB6F100D3EC63 /* DeliciousFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliciousFood.h; sourceTree = "<group>"; };
+		183F6998214EB6F100D3EC63 /* DeliciousFood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliciousFood.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -629,6 +632,8 @@
 			children = (
 				183F681D214A4C1A00D3EC63 /* ObserverViewController.h */,
 				183F681E214A4C1A00D3EC63 /* ObserverViewController.m */,
+				183F6997214EB6F100D3EC63 /* DeliciousFood.h */,
+				183F6998214EB6F100D3EC63 /* DeliciousFood.m */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -1047,6 +1052,7 @@
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
 				183F6959214D50CA00D3EC63 /* Tableware.m in Sources */,
+				183F6999214EB6F100D3EC63 /* DeliciousFood.m in Sources */,
 				183F6979214E863600D3EC63 /* AnimalSqliteDB.m in Sources */,
 				183F68A3214BA44300D3EC63 /* Human.m in Sources */,
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,

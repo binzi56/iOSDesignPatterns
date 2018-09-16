@@ -7,8 +7,12 @@
 //
 
 #import "ObserverViewController.h"
+#import "DeliciousFood.h"
 
+static NSInteger count = 0;
 @interface ObserverViewController ()
+
+@property (nonatomic, strong) DeliciousFood *food;
 
 @end
 
@@ -17,7 +21,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.food = [DeliciousFood new];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(changeName) userInfo:nil repeats:YES];
+    
+    //kvo
+    [_food addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
+   
+    //notification
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notifyChangeName:) name:@"NotificationChangeName" object:nil];
+    
 }
+
+- (void)changeName
+{
+    count++;
+    _food.name = [NSString stringWithFormat:@"帅斌_%ld", count];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NotificationChangeName" object:_food.name];
+}
+
+
+- (void)notifyChangeName:(NSNotification *)notify{
+    NSLog(@"notifyChangeName~~~%@", notify.object);
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,5 +63,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
+{
+    NSLog(@"observeValueForKeyPath:\nnew:%@\nold:%@", change[@"new"], change[@"old"]);
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 @end
