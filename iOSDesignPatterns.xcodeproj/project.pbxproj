@@ -83,6 +83,8 @@
 		183F6987214E988700D3EC63 /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6986214E988700D3EC63 /* ComputerFactory.m */; };
 		183F698C214EA7C400D3EC63 /* DESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F698B214EA7C400D3EC63 /* DESEncryption.m */; };
 		183F6990214EA82B00D3EC63 /* RSAEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F698F214EA82B00D3EC63 /* RSAEncryption.m */; };
+		183F6993214EB12300D3EC63 /* GetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6992214EB12300D3EC63 /* GetUpBed.m */; };
+		183F6996214EB29D00D3EC63 /* JackGetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6995214EB29D00D3EC63 /* JackGetUpBed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +270,10 @@
 		183F698D214EA7E600D3EC63 /* AlgorithmProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmProtocol.h; sourceTree = "<group>"; };
 		183F698E214EA82B00D3EC63 /* RSAEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
 		183F698F214EA82B00D3EC63 /* RSAEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAEncryption.m; sourceTree = "<group>"; };
+		183F6991214EB12200D3EC63 /* GetUpBed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetUpBed.h; sourceTree = "<group>"; };
+		183F6992214EB12300D3EC63 /* GetUpBed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUpBed.m; sourceTree = "<group>"; };
+		183F6994214EB29D00D3EC63 /* JackGetUpBed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JackGetUpBed.h; sourceTree = "<group>"; };
+		183F6995214EB29D00D3EC63 /* JackGetUpBed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackGetUpBed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -632,6 +638,10 @@
 			children = (
 				183F681A214A4BE100D3EC63 /* TemplateMethodViewController.h */,
 				183F681B214A4BE100D3EC63 /* TemplateMethodViewController.m */,
+				183F6991214EB12200D3EC63 /* GetUpBed.h */,
+				183F6992214EB12300D3EC63 /* GetUpBed.m */,
+				183F6994214EB29D00D3EC63 /* JackGetUpBed.h */,
+				183F6995214EB29D00D3EC63 /* JackGetUpBed.m */,
 			);
 			path = TemplateMethod;
 			sourceTree = "<group>";
@@ -979,6 +989,7 @@
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
+				183F6996214EB29D00D3EC63 /* JackGetUpBed.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
@@ -1041,6 +1052,7 @@
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,
 				183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */,
 				183F6944214D111500D3EC63 /* DecHuweiPhone.m in Sources */,
+				183F6993214EB12300D3EC63 /* GetUpBed.m in Sources */,
 				183F67A8214A33C100D3EC63 /* AppDelegate.m in Sources */,
 				183F6847214A680700D3EC63 /* ChinaFlag.m in Sources */,
 			);

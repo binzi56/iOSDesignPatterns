@@ -7,6 +7,7 @@
 //
 
 #import "TemplateMethodViewController.h"
+#import "JackGetUpBed.h"
 
 @interface TemplateMethodViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    JackGetUpBed *jack = [JackGetUpBed new];
+    [jack getUpBed];
 }
 
 - (void)didReceiveMemoryWarning {
