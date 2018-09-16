@@ -79,6 +79,8 @@
 		183F6979214E863600D3EC63 /* AnimalSqliteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6978214E863600D3EC63 /* AnimalSqliteDB.m */; };
 		183F697D214E8A9300D3EC63 /* JackDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F697C214E8A9300D3EC63 /* JackDB.m */; };
 		183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F697F214E8AA000D3EC63 /* RoseDB.m */; };
+		183F6983214E95CF00D3EC63 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6982214E95CF00D3EC63 /* Computer.m */; };
+		183F6987214E988700D3EC63 /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6986214E988700D3EC63 /* ComputerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +256,11 @@
 		183F697C214E8A9300D3EC63 /* JackDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackDB.m; sourceTree = "<group>"; };
 		183F697E214E8AA000D3EC63 /* RoseDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoseDB.h; sourceTree = "<group>"; };
 		183F697F214E8AA000D3EC63 /* RoseDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoseDB.m; sourceTree = "<group>"; };
+		183F6981214E95CF00D3EC63 /* Computer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		183F6982214E95CF00D3EC63 /* Computer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		183F6984214E95E200D3EC63 /* ComputerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerProtocol.h; sourceTree = "<group>"; };
+		183F6985214E988700D3EC63 /* ComputerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerFactory.h; sourceTree = "<group>"; };
+		183F6986214E988700D3EC63 /* ComputerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +457,11 @@
 			children = (
 				183F680A214A4B3C00D3EC63 /* FlyweightViewController.h */,
 				183F680B214A4B3C00D3EC63 /* FlyweightViewController.m */,
+				183F6984214E95E200D3EC63 /* ComputerProtocol.h */,
+				183F6981214E95CF00D3EC63 /* Computer.h */,
+				183F6982214E95CF00D3EC63 /* Computer.m */,
+				183F6985214E988700D3EC63 /* ComputerFactory.h */,
+				183F6986214E988700D3EC63 /* ComputerFactory.m */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -940,6 +952,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F6987214E988700D3EC63 /* ComputerFactory.m in Sources */,
 				183F6936214D004000D3EC63 /* Adapter.m in Sources */,
 				183F695C214D50E300D3EC63 /* Food.m in Sources */,
 				183F6892214B8CBC00D3EC63 /* Wine.m in Sources */,
@@ -984,6 +997,7 @@
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
 				183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */,
 				183F6969214D5CBD00D3EC63 /* MediumCupTea.m in Sources */,
+				183F6983214E95CF00D3EC63 /* Computer.m in Sources */,
 				183F689C214B8DF800D3EC63 /* SellWine.m in Sources */,
 				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
 				183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */,

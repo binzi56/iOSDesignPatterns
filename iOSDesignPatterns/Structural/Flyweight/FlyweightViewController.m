@@ -7,6 +7,8 @@
 //
 
 #import "FlyweightViewController.h"
+#import "ComputerFactory.h"
+#import "Computer.h"
 
 @interface FlyweightViewController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    ComputerFactory *fac = [[ComputerFactory alloc] init];
+    Computer *computer = [fac computerWithDiskCache:@"128G"];
+    [computer showComputerInfoWithComputerName:@"MacBook Pro"];
 }
 
 - (void)didReceiveMemoryWarning {
