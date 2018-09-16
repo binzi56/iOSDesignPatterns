@@ -8,8 +8,8 @@
 深度克隆->创建新的对象。
 
 ### 核心角色
-克隆接口
-具体实现类
+* 克隆接口
+* 具体实现类
 
 ### UML
 ![Prototype URL](https://upload-images.jianshu.io/upload_images/1893416-5516d555805d62db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

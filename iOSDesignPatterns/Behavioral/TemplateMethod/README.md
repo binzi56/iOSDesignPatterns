@@ -9,8 +9,8 @@
 将公有、重复、复杂的步骤设计为模版方法
 
 ### 核心角色
-抽象类(GetUpBed)
-具体模版实现类(JackGetUpBed)
+* 抽象类(GetUpBed)
+* 具体模版实现类(JackGetUpBed)
 
 ### UML
 ![Template Method UML](https://upload-images.jianshu.io/upload_images/1893416-9468f111cf390830.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

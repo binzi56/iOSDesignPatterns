@@ -10,9 +10,9 @@
 自由切换算法规则；屏蔽算法规则；
 
 ### 核心角色
-策略接口(AlgorithmProtocol)
-具体策略(DESEncryption,RSAEncryption)
-策略上下文（管理器）
+* 策略接口(AlgorithmProtocol)
+* 具体策略(DESEncryption,RSAEncryption)
+* 策略上下文（管理器）
 
 ### UML
 ![Strategy UML](https://upload-images.jianshu.io/upload_images/1893416-77dbbae54574a652.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
