@@ -86,6 +86,9 @@
 		183F6993214EB12300D3EC63 /* GetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6992214EB12300D3EC63 /* GetUpBed.m */; };
 		183F6996214EB29D00D3EC63 /* JackGetUpBed.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6995214EB29D00D3EC63 /* JackGetUpBed.m */; };
 		183F6999214EB6F100D3EC63 /* DeliciousFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6998214EB6F100D3EC63 /* DeliciousFood.m */; };
+		183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69A7214F3B6200D3EC63 /* SiteAggregrate.m */; };
+		183F69AC214F3F1900D3EC63 /* TicketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69AB214F3F1900D3EC63 /* TicketIterator.m */; };
+		183F69B0214F403400D3EC63 /* StudentTicketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69AF214F403400D3EC63 /* StudentTicketIterator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +280,14 @@
 		183F6995214EB29D00D3EC63 /* JackGetUpBed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackGetUpBed.m; sourceTree = "<group>"; };
 		183F6997214EB6F100D3EC63 /* DeliciousFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliciousFood.h; sourceTree = "<group>"; };
 		183F6998214EB6F100D3EC63 /* DeliciousFood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliciousFood.m; sourceTree = "<group>"; };
+		183F69A6214F3B6200D3EC63 /* SiteAggregrate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteAggregrate.h; sourceTree = "<group>"; };
+		183F69A7214F3B6200D3EC63 /* SiteAggregrate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiteAggregrate.m; sourceTree = "<group>"; };
+		183F69A9214F3B8800D3EC63 /* SiteAggregrateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteAggregrateProtocol.h; sourceTree = "<group>"; };
+		183F69AA214F3F1900D3EC63 /* TicketIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketIterator.h; sourceTree = "<group>"; };
+		183F69AB214F3F1900D3EC63 /* TicketIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketIterator.m; sourceTree = "<group>"; };
+		183F69AD214F3F2800D3EC63 /* TicketIteratorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketIteratorProtocol.h; sourceTree = "<group>"; };
+		183F69AE214F403400D3EC63 /* StudentTicketIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentTicketIterator.h; sourceTree = "<group>"; };
+		183F69AF214F403400D3EC63 /* StudentTicketIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentTicketIterator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +634,14 @@
 			children = (
 				183F6820214A4C3800D3EC63 /* IteratorViewController.h */,
 				183F6821214A4C3800D3EC63 /* IteratorViewController.m */,
+				183F69A9214F3B8800D3EC63 /* SiteAggregrateProtocol.h */,
+				183F69A6214F3B6200D3EC63 /* SiteAggregrate.h */,
+				183F69A7214F3B6200D3EC63 /* SiteAggregrate.m */,
+				183F69AD214F3F2800D3EC63 /* TicketIteratorProtocol.h */,
+				183F69AA214F3F1900D3EC63 /* TicketIterator.h */,
+				183F69AB214F3F1900D3EC63 /* TicketIterator.m */,
+				183F69AE214F403400D3EC63 /* StudentTicketIterator.h */,
+				183F69AF214F403400D3EC63 /* StudentTicketIterator.m */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -1020,11 +1039,13 @@
 				183F6976214E861D00D3EC63 /* HumanSqliteDB.m in Sources */,
 				183F6990214EA82B00D3EC63 /* RSAEncryption.m in Sources */,
 				183F6803214A4A9B00D3EC63 /* FacadeViewController.m in Sources */,
+				183F69B0214F403400D3EC63 /* StudentTicketIterator.m in Sources */,
 				183F6947214D112D00D3EC63 /* DecApplePhone.m in Sources */,
 				183F684A214A682000D3EC63 /* AmericanFlag.m in Sources */,
 				183F694A214D144700D3EC63 /* DecPhone.m in Sources */,
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
 				183F695F214D5B3300D3EC63 /* MilkTea.m in Sources */,
+				183F69AC214F3F1900D3EC63 /* TicketIterator.m in Sources */,
 				183F697D214E8A9300D3EC63 /* JackDB.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
@@ -1041,6 +1062,7 @@
 				183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,
+				183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */,
 				183F6956214D50A900D3EC63 /* CookingManager.m in Sources */,
 				183F681C214A4BE100D3EC63 /* TemplateMethodViewController.m in Sources */,
 				183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */,
