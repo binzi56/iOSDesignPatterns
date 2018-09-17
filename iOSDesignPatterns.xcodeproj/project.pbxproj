@@ -89,6 +89,12 @@
 		183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69A7214F3B6200D3EC63 /* SiteAggregrate.m */; };
 		183F69AC214F3F1900D3EC63 /* TicketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69AB214F3F1900D3EC63 /* TicketIterator.m */; };
 		183F69B0214F403400D3EC63 /* StudentTicketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69AF214F403400D3EC63 /* StudentTicketIterator.m */; };
+		183F69B3214F4AF100D3EC63 /* BaseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69B2214F4AF100D3EC63 /* BaseChain.m */; };
+		183F69B6214F4CC500D3EC63 /* JackChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69B5214F4CC500D3EC63 /* JackChain.m */; };
+		183F69B9214F4CD400D3EC63 /* RoseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69B8214F4CD400D3EC63 /* RoseChain.m */; };
+		183F69BC214F547700D3EC63 /* FinalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69BB214F547700D3EC63 /* FinalExpression.m */; };
+		183F69BF214F548400D3EC63 /* NotFinalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69BE214F548400D3EC63 /* NotFinalExpression.m */; };
+		183F69C2214F549400D3EC63 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69C1214F549400D3EC63 /* Context.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +294,19 @@
 		183F69AD214F3F2800D3EC63 /* TicketIteratorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketIteratorProtocol.h; sourceTree = "<group>"; };
 		183F69AE214F403400D3EC63 /* StudentTicketIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentTicketIterator.h; sourceTree = "<group>"; };
 		183F69AF214F403400D3EC63 /* StudentTicketIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentTicketIterator.m; sourceTree = "<group>"; };
+		183F69B1214F4AF100D3EC63 /* BaseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChain.h; sourceTree = "<group>"; };
+		183F69B2214F4AF100D3EC63 /* BaseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChain.m; sourceTree = "<group>"; };
+		183F69B4214F4CC500D3EC63 /* JackChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JackChain.h; sourceTree = "<group>"; };
+		183F69B5214F4CC500D3EC63 /* JackChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackChain.m; sourceTree = "<group>"; };
+		183F69B7214F4CD400D3EC63 /* RoseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoseChain.h; sourceTree = "<group>"; };
+		183F69B8214F4CD400D3EC63 /* RoseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoseChain.m; sourceTree = "<group>"; };
+		183F69BA214F547700D3EC63 /* FinalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExpression.h; sourceTree = "<group>"; };
+		183F69BB214F547700D3EC63 /* FinalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExpression.m; sourceTree = "<group>"; };
+		183F69BD214F548400D3EC63 /* NotFinalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotFinalExpression.h; sourceTree = "<group>"; };
+		183F69BE214F548400D3EC63 /* NotFinalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotFinalExpression.m; sourceTree = "<group>"; };
+		183F69C0214F549400D3EC63 /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		183F69C1214F549400D3EC63 /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		183F69C3214F54A700D3EC63 /* ExpressionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressionProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -625,6 +644,12 @@
 			children = (
 				183F6826214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.h */,
 				183F6827214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m */,
+				183F69B1214F4AF100D3EC63 /* BaseChain.h */,
+				183F69B2214F4AF100D3EC63 /* BaseChain.m */,
+				183F69B4214F4CC500D3EC63 /* JackChain.h */,
+				183F69B5214F4CC500D3EC63 /* JackChain.m */,
+				183F69B7214F4CD400D3EC63 /* RoseChain.h */,
+				183F69B8214F4CD400D3EC63 /* RoseChain.m */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -685,6 +710,13 @@
 			children = (
 				183F6839214A4D6200D3EC63 /* InterpreterViewController.h */,
 				183F683A214A4D6200D3EC63 /* InterpreterViewController.m */,
+				183F69C3214F54A700D3EC63 /* ExpressionProtocol.h */,
+				183F69BA214F547700D3EC63 /* FinalExpression.h */,
+				183F69BB214F547700D3EC63 /* FinalExpression.m */,
+				183F69BD214F548400D3EC63 /* NotFinalExpression.h */,
+				183F69BE214F548400D3EC63 /* NotFinalExpression.m */,
+				183F69C0214F549400D3EC63 /* Context.h */,
+				183F69C1214F549400D3EC63 /* Context.m */,
 			);
 			path = Interpreter;
 			sourceTree = "<group>";
@@ -1019,12 +1051,14 @@
 				183F67F1214A496700D3EC63 /* SingletonViewController.m in Sources */,
 				183F694E214D467C00D3EC63 /* ProTeacher.m in Sources */,
 				183F6898214B8DB300D3EC63 /* Brandy.m in Sources */,
+				183F69B6214F4CC500D3EC63 /* JackChain.m in Sources */,
 				183F693A214D01A300D3EC63 /* BaseTableViewDataSource.m in Sources */,
 				183F6966214D5C9700D3EC63 /* BigCupTea.m in Sources */,
 				183F6940214D0F1400D3EC63 /* StaticPhone.m in Sources */,
 				183F6831214A4CD900D3EC63 /* StateViewController.m in Sources */,
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
+				183F69BF214F548400D3EC63 /* NotFinalExpression.m in Sources */,
 				183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */,
 				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
@@ -1055,15 +1089,18 @@
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
 				183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */,
+				183F69B9214F4CD400D3EC63 /* RoseChain.m in Sources */,
 				183F6969214D5CBD00D3EC63 /* MediumCupTea.m in Sources */,
 				183F6983214E95CF00D3EC63 /* Computer.m in Sources */,
 				183F689C214B8DF800D3EC63 /* SellWine.m in Sources */,
 				183F6868214B50B100D3EC63 /* HuaweiFactory.m in Sources */,
+				183F69C2214F549400D3EC63 /* Context.m in Sources */,
 				183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,
 				183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */,
 				183F6956214D50A900D3EC63 /* CookingManager.m in Sources */,
+				183F69B3214F4AF100D3EC63 /* BaseChain.m in Sources */,
 				183F681C214A4BE100D3EC63 /* TemplateMethodViewController.m in Sources */,
 				183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */,
 				183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */,
@@ -1075,6 +1112,7 @@
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
 				183F6959214D50CA00D3EC63 /* Tableware.m in Sources */,
 				183F6999214EB6F100D3EC63 /* DeliciousFood.m in Sources */,
+				183F69BC214F547700D3EC63 /* FinalExpression.m in Sources */,
 				183F6979214E863600D3EC63 /* AnimalSqliteDB.m in Sources */,
 				183F68A3214BA44300D3EC63 /* Human.m in Sources */,
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,

@@ -7,6 +7,8 @@
 //
 
 #import "ChainOfResponsibilityViewController.h"
+#import "JackChain.h"
+#import "RoseChain.h"
 
 @interface ChainOfResponsibilityViewController ()
 
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    JackChain *jack = [JackChain new];
+    RoseChain *rose = [RoseChain new];
+    jack.nextHandle = rose;
+    
+    [jack handlerThingWithName:@"Rose"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,8 @@
 //
 
 #import "InterpreterViewController.h"
+#import "FinalExpression.h"
+#import "NotFinalExpression.h"
 
 @interface InterpreterViewController ()
 
@@ -17,6 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Context *context = [Context new];
+    NSMutableArray *tempArr = [NSMutableArray array];
+    [tempArr addObject:[[FinalExpression alloc] init]];
+    [tempArr addObject:[[FinalExpression alloc] init]];
+    [tempArr addObject:[[NotFinalExpression alloc] init]];
+    [tempArr addObject:[[FinalExpression alloc] init]];
+    [tempArr addObject:[[NotFinalExpression alloc] init]];
+    for (id<ExpressionProtocol> exp in tempArr) {
+        NSLog(@"expression~~~~~%.2f", [exp interpreterWithContent:context]);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
