@@ -7,6 +7,10 @@
 //
 
 #import "VisitorViewController.h"
+#import "ItemB.h"
+#import "ItemA.h"
+#import "Visitor.h"
+#import "ItemContainer.h"
 
 @interface VisitorViewController ()
 
@@ -17,6 +21,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //创建集合
+    ItemContainer *container = [[ItemContainer alloc] init];
+    
+    //给集合添加item
+    [container addItem:[[ItemA alloc] init] withKey:@"ItemA"];
+    [container addItem:[[ItemB alloc] init] withKey:@"ItemB"];
+
+    //遍历出元素
+    for (int i = 0; i < container.allKeys.count; i++) {
+        NSString *key = container.allKeys[i];
+        id<ItemProtocol> item = [container itemWithKey:key];
+        
+        //接收访问者
+        Visitor *visitor = [[Visitor alloc] init];
+        [item accept:visitor];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

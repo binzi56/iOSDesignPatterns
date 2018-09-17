@@ -104,6 +104,10 @@
 		183F69DD214F982900D3EC63 /* OnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69DC214F982900D3EC63 /* OnState.m */; };
 		183F69E0214F983600D3EC63 /* OffState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69DF214F983600D3EC63 /* OffState.m */; };
 		183F69E3214F985F00D3EC63 /* TvControlContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69E2214F985F00D3EC63 /* TvControlContext.m */; };
+		183F69E6214FA24900D3EC63 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69E5214FA24900D3EC63 /* Visitor.m */; };
+		183F69EB214FA32B00D3EC63 /* ItemA.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69EA214FA32B00D3EC63 /* ItemA.m */; };
+		183F69EE214FA33700D3EC63 /* ItemB.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69ED214FA33700D3EC63 /* ItemB.m */; };
+		183F69F1214FA3C100D3EC63 /* ItemContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69F0214FA3C100D3EC63 /* ItemContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -336,6 +340,16 @@
 		183F69DF214F983600D3EC63 /* OffState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffState.m; sourceTree = "<group>"; };
 		183F69E1214F985F00D3EC63 /* TvControlContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvControlContext.h; sourceTree = "<group>"; };
 		183F69E2214F985F00D3EC63 /* TvControlContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlContext.m; sourceTree = "<group>"; };
+		183F69E4214FA24900D3EC63 /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		183F69E5214FA24900D3EC63 /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		183F69E7214FA25900D3EC63 /* VisitorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorProtocol.h; sourceTree = "<group>"; };
+		183F69E8214FA31800D3EC63 /* ItemProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemProtocol.h; sourceTree = "<group>"; };
+		183F69E9214FA32B00D3EC63 /* ItemA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemA.h; sourceTree = "<group>"; };
+		183F69EA214FA32B00D3EC63 /* ItemA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemA.m; sourceTree = "<group>"; };
+		183F69EC214FA33700D3EC63 /* ItemB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemB.h; sourceTree = "<group>"; };
+		183F69ED214FA33700D3EC63 /* ItemB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemB.m; sourceTree = "<group>"; };
+		183F69EF214FA3C000D3EC63 /* ItemContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemContainer.h; sourceTree = "<group>"; };
+		183F69F0214FA3C100D3EC63 /* ItemContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -637,6 +651,16 @@
 			children = (
 				183F6832214A4CF500D3EC63 /* VisitorViewController.h */,
 				183F6833214A4CF500D3EC63 /* VisitorViewController.m */,
+				183F69E7214FA25900D3EC63 /* VisitorProtocol.h */,
+				183F69E4214FA24900D3EC63 /* Visitor.h */,
+				183F69E5214FA24900D3EC63 /* Visitor.m */,
+				183F69E8214FA31800D3EC63 /* ItemProtocol.h */,
+				183F69E9214FA32B00D3EC63 /* ItemA.h */,
+				183F69EA214FA32B00D3EC63 /* ItemA.m */,
+				183F69EC214FA33700D3EC63 /* ItemB.h */,
+				183F69ED214FA33700D3EC63 /* ItemB.m */,
+				183F69EF214FA3C000D3EC63 /* ItemContainer.h */,
+				183F69F0214FA3C100D3EC63 /* ItemContainer.m */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -1115,6 +1139,7 @@
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
 				183F69CF214F85C400D3EC63 /* CommandReceiver.m in Sources */,
 				183F698C214EA7C400D3EC63 /* DESEncryption.m in Sources */,
+				183F69EE214FA33700D3EC63 /* ItemB.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
 				183F6819214A4BBE00D3EC63 /* StrategyViewController.m in Sources */,
@@ -1134,6 +1159,7 @@
 				183F695F214D5B3300D3EC63 /* MilkTea.m in Sources */,
 				183F69AC214F3F1900D3EC63 /* TicketIterator.m in Sources */,
 				183F69CC214F85A700D3EC63 /* CommandInvoker.m in Sources */,
+				183F69E6214FA24900D3EC63 /* Visitor.m in Sources */,
 				183F697D214E8A9300D3EC63 /* JackDB.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
@@ -1152,6 +1178,7 @@
 				183F69C2214F549400D3EC63 /* Context.m in Sources */,
 				183F6970214D5DAC00D3EC63 /* IceAdds.m in Sources */,
 				183F67F4214A497F00D3EC63 /* BuilderViewController.m in Sources */,
+				183F69EB214FA32B00D3EC63 /* ItemA.m in Sources */,
 				183F67EB214A491A00D3EC63 /* FactoryMethodViewController.m in Sources */,
 				183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */,
 				183F6956214D50A900D3EC63 /* CookingManager.m in Sources */,
@@ -1176,6 +1203,7 @@
 				183F67EE214A494100D3EC63 /* AbstractFactoryViewController.m in Sources */,
 				183F6850214A695E00D3EC63 /* AmericanFlagFactory.m in Sources */,
 				183F6944214D111500D3EC63 /* DecHuweiPhone.m in Sources */,
+				183F69F1214FA3C100D3EC63 /* ItemContainer.m in Sources */,
 				183F6993214EB12300D3EC63 /* GetUpBed.m in Sources */,
 				183F67A8214A33C100D3EC63 /* AppDelegate.m in Sources */,
 				183F6847214A680700D3EC63 /* ChinaFlag.m in Sources */,
