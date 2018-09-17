@@ -7,6 +7,7 @@
 //
 
 #import "MediatorViewController.h"
+#import "AppleMediator.h"
 
 @interface MediatorViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //核心中介者
+    AppleMediator *apple = [AppleMediator new];
+    //同事
+    BatteryColleague *battery = [[BatteryColleague alloc] initWithMediator:apple];
+    CPUColleague *cpu = [[CPUColleague alloc] initWithMediator:apple];
+    [apple setBattery:battery];
+    [apple setCPU:cpu];
+    
+    [cpu load];
+    
 }
 
 - (void)didReceiveMemoryWarning {
