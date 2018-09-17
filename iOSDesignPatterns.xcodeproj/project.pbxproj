@@ -95,6 +95,9 @@
 		183F69BC214F547700D3EC63 /* FinalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69BB214F547700D3EC63 /* FinalExpression.m */; };
 		183F69BF214F548400D3EC63 /* NotFinalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69BE214F548400D3EC63 /* NotFinalExpression.m */; };
 		183F69C2214F549400D3EC63 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69C1214F549400D3EC63 /* Context.m */; };
+		183F69C9214F857A00D3EC63 /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69C8214F857A00D3EC63 /* DynamicCommand.m */; };
+		183F69CC214F85A700D3EC63 /* CommandInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69CB214F85A700D3EC63 /* CommandInvoker.m */; };
+		183F69CF214F85C400D3EC63 /* CommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69CE214F85C400D3EC63 /* CommandReceiver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,6 +310,13 @@
 		183F69C0214F549400D3EC63 /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
 		183F69C1214F549400D3EC63 /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 		183F69C3214F54A700D3EC63 /* ExpressionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressionProtocol.h; sourceTree = "<group>"; };
+		183F69C7214F857A00D3EC63 /* DynamicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommand.h; sourceTree = "<group>"; };
+		183F69C8214F857A00D3EC63 /* DynamicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommand.m; sourceTree = "<group>"; };
+		183F69CA214F85A700D3EC63 /* CommandInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandInvoker.h; sourceTree = "<group>"; };
+		183F69CB214F85A700D3EC63 /* CommandInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandInvoker.m; sourceTree = "<group>"; };
+		183F69CD214F85C400D3EC63 /* CommandReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandReceiver.h; sourceTree = "<group>"; };
+		183F69CE214F85C400D3EC63 /* CommandReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandReceiver.m; sourceTree = "<group>"; };
+		183F69D0214F85D300D3EC63 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -635,6 +645,13 @@
 			children = (
 				183F6829214A4C9A00D3EC63 /* CommandViewController.h */,
 				183F682A214A4C9A00D3EC63 /* CommandViewController.m */,
+				183F69D0214F85D300D3EC63 /* CommandProtocol.h */,
+				183F69C7214F857A00D3EC63 /* DynamicCommand.h */,
+				183F69C8214F857A00D3EC63 /* DynamicCommand.m */,
+				183F69CA214F85A700D3EC63 /* CommandInvoker.h */,
+				183F69CB214F85A700D3EC63 /* CommandInvoker.m */,
+				183F69CD214F85C400D3EC63 /* CommandReceiver.h */,
+				183F69CE214F85C400D3EC63 /* CommandReceiver.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -1062,6 +1079,7 @@
 				183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */,
 				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
+				183F69CF214F85C400D3EC63 /* CommandReceiver.m in Sources */,
 				183F698C214EA7C400D3EC63 /* DESEncryption.m in Sources */,
 				183F680C214A4B3C00D3EC63 /* FlyweightViewController.m in Sources */,
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
@@ -1080,6 +1098,7 @@
 				183F6828214A4C7B00D3EC63 /* ChainOfResponsibilityViewController.m in Sources */,
 				183F695F214D5B3300D3EC63 /* MilkTea.m in Sources */,
 				183F69AC214F3F1900D3EC63 /* TicketIterator.m in Sources */,
+				183F69CC214F85A700D3EC63 /* CommandInvoker.m in Sources */,
 				183F697D214E8A9300D3EC63 /* JackDB.m in Sources */,
 				183F685A214B4F0600D3EC63 /* HuaweiPhone.m in Sources */,
 				183F6800214A4A6C00D3EC63 /* ProxyViewController.m in Sources */,
@@ -1101,6 +1120,7 @@
 				183F69A8214F3B6200D3EC63 /* SiteAggregrate.m in Sources */,
 				183F6956214D50A900D3EC63 /* CookingManager.m in Sources */,
 				183F69B3214F4AF100D3EC63 /* BaseChain.m in Sources */,
+				183F69C9214F857A00D3EC63 /* DynamicCommand.m in Sources */,
 				183F681C214A4BE100D3EC63 /* TemplateMethodViewController.m in Sources */,
 				183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */,
 				183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */,

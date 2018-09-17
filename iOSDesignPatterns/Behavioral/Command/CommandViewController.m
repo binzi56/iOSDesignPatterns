@@ -7,6 +7,8 @@
 //
 
 #import "CommandViewController.h"
+#import "CommandReceiver.h"
+#import "CommandInvoker.h"
 
 @interface CommandViewController ()
 
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    CommandReceiver *receiver = [[CommandReceiver alloc] init];
+    [receiver printCount];
+    CommandInvoker *invoker = [[CommandInvoker alloc] init:receiver];
+    [invoker increaseCount:@"10"];
+    [receiver printCount];
+    [invoker undo];
+    [receiver printCount];
 }
 
 - (void)didReceiveMemoryWarning {
