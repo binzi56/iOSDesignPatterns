@@ -101,6 +101,9 @@
 		183F69D3214F8EB100D3EC63 /* MementoRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D2214F8EB100D3EC63 /* MementoRole.m */; };
 		183F69D6214F8F8B00D3EC63 /* MementoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D5214F8F8B00D3EC63 /* MementoStore.m */; };
 		183F69D9214F903300D3EC63 /* MementoOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D8214F903300D3EC63 /* MementoOriginator.m */; };
+		183F69DD214F982900D3EC63 /* OnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69DC214F982900D3EC63 /* OnState.m */; };
+		183F69E0214F983600D3EC63 /* OffState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69DF214F983600D3EC63 /* OffState.m */; };
+		183F69E3214F985F00D3EC63 /* TvControlContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69E2214F985F00D3EC63 /* TvControlContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -326,6 +329,13 @@
 		183F69D5214F8F8B00D3EC63 /* MementoStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoStore.m; sourceTree = "<group>"; };
 		183F69D7214F903300D3EC63 /* MementoOriginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoOriginator.h; sourceTree = "<group>"; };
 		183F69D8214F903300D3EC63 /* MementoOriginator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoOriginator.m; sourceTree = "<group>"; };
+		183F69DA214F981100D3EC63 /* StateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateProtocol.h; sourceTree = "<group>"; };
+		183F69DB214F982900D3EC63 /* OnState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnState.h; sourceTree = "<group>"; };
+		183F69DC214F982900D3EC63 /* OnState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnState.m; sourceTree = "<group>"; };
+		183F69DE214F983600D3EC63 /* OffState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffState.h; sourceTree = "<group>"; };
+		183F69DF214F983600D3EC63 /* OffState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffState.m; sourceTree = "<group>"; };
+		183F69E1214F985F00D3EC63 /* TvControlContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvControlContext.h; sourceTree = "<group>"; };
+		183F69E2214F985F00D3EC63 /* TvControlContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -636,6 +646,13 @@
 			children = (
 				183F682F214A4CD900D3EC63 /* StateViewController.h */,
 				183F6830214A4CD900D3EC63 /* StateViewController.m */,
+				183F69DA214F981100D3EC63 /* StateProtocol.h */,
+				183F69DB214F982900D3EC63 /* OnState.h */,
+				183F69DC214F982900D3EC63 /* OnState.m */,
+				183F69DE214F983600D3EC63 /* OffState.h */,
+				183F69DF214F983600D3EC63 /* OffState.m */,
+				183F69E1214F985F00D3EC63 /* TvControlContext.h */,
+				183F69E2214F985F00D3EC63 /* TvControlContext.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -1102,6 +1119,7 @@
 				183F684D214A694700D3EC63 /* ChinaFlagFactory.m in Sources */,
 				183F6819214A4BBE00D3EC63 /* StrategyViewController.m in Sources */,
 				183F681F214A4C1A00D3EC63 /* ObserverViewController.m in Sources */,
+				183F69DD214F982900D3EC63 /* OnState.m in Sources */,
 				183F689F214B985100D3EC63 /* Person.m in Sources */,
 				183F6809214A4B0300D3EC63 /* CompositeViewController.m in Sources */,
 				183F67FA214A4A2D00D3EC63 /* AdapterViewController.m in Sources */,
@@ -1122,6 +1140,7 @@
 				183F693D214D024800D3EC63 /* TableViewDataSource.m in Sources */,
 				183F686B214B50CB00D3EC63 /* AppleFactory.m in Sources */,
 				183F6962214D5B7E00D3EC63 /* MilkTeaAdds.m in Sources */,
+				183F69E3214F985F00D3EC63 /* TvControlContext.m in Sources */,
 				183F6857214B4EF100D3EC63 /* ApplePhone.m in Sources */,
 				183F6895214B8D8400D3EC63 /* Whisky.m in Sources */,
 				183F6952214D476C00D3EC63 /* ProTeacherA.m in Sources */,
@@ -1142,6 +1161,7 @@
 				183F6980214E8AA000D3EC63 /* RoseDB.m in Sources */,
 				183F6837214A4D1E00D3EC63 /* MediatorViewController.m in Sources */,
 				183F682E214A4CB900D3EC63 /* MementoViewController.m in Sources */,
+				183F69E0214F983600D3EC63 /* OffState.m in Sources */,
 				183F696C214D5CCF00D3EC63 /* SmallMilkTea.m in Sources */,
 				183F67AB214A33C100D3EC63 /* ViewController.m in Sources */,
 				183F6933214CFFC700D3EC63 /* BaseAdapter.m in Sources */,

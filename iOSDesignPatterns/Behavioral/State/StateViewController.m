@@ -7,6 +7,8 @@
 //
 
 #import "StateViewController.h"
+#import "TvControlContext.h"
+#import "OnState.h"
 
 @interface StateViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    TvControlContext *tv = [[TvControlContext alloc] initWithState:[[OnState alloc] init]];
+    [tv powerOn];
 }
 
 - (void)didReceiveMemoryWarning {
