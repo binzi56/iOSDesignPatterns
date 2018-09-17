@@ -98,6 +98,9 @@
 		183F69C9214F857A00D3EC63 /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69C8214F857A00D3EC63 /* DynamicCommand.m */; };
 		183F69CC214F85A700D3EC63 /* CommandInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69CB214F85A700D3EC63 /* CommandInvoker.m */; };
 		183F69CF214F85C400D3EC63 /* CommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69CE214F85C400D3EC63 /* CommandReceiver.m */; };
+		183F69D3214F8EB100D3EC63 /* MementoRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D2214F8EB100D3EC63 /* MementoRole.m */; };
+		183F69D6214F8F8B00D3EC63 /* MementoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D5214F8F8B00D3EC63 /* MementoStore.m */; };
+		183F69D9214F903300D3EC63 /* MementoOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F69D8214F903300D3EC63 /* MementoOriginator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,6 +320,12 @@
 		183F69CD214F85C400D3EC63 /* CommandReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandReceiver.h; sourceTree = "<group>"; };
 		183F69CE214F85C400D3EC63 /* CommandReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandReceiver.m; sourceTree = "<group>"; };
 		183F69D0214F85D300D3EC63 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		183F69D1214F8EB100D3EC63 /* MementoRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoRole.h; sourceTree = "<group>"; };
+		183F69D2214F8EB100D3EC63 /* MementoRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoRole.m; sourceTree = "<group>"; };
+		183F69D4214F8F8B00D3EC63 /* MementoStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoStore.h; sourceTree = "<group>"; };
+		183F69D5214F8F8B00D3EC63 /* MementoStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoStore.m; sourceTree = "<group>"; };
+		183F69D7214F903300D3EC63 /* MementoOriginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoOriginator.h; sourceTree = "<group>"; };
+		183F69D8214F903300D3EC63 /* MementoOriginator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoOriginator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -636,6 +645,12 @@
 			children = (
 				183F682C214A4CB900D3EC63 /* MementoViewController.h */,
 				183F682D214A4CB900D3EC63 /* MementoViewController.m */,
+				183F69D1214F8EB100D3EC63 /* MementoRole.h */,
+				183F69D2214F8EB100D3EC63 /* MementoRole.m */,
+				183F69D4214F8F8B00D3EC63 /* MementoStore.h */,
+				183F69D5214F8F8B00D3EC63 /* MementoStore.m */,
+				183F69D7214F903300D3EC63 /* MementoOriginator.h */,
+				183F69D8214F903300D3EC63 /* MementoOriginator.m */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -1062,6 +1077,7 @@
 				183F6873214B516200D3EC63 /* AppleBattery.m in Sources */,
 				183F6822214A4C3800D3EC63 /* IteratorViewController.m in Sources */,
 				183F6834214A4CF500D3EC63 /* VisitorViewController.m in Sources */,
+				183F69D9214F903300D3EC63 /* MementoOriginator.m in Sources */,
 				183F6996214EB29D00D3EC63 /* JackGetUpBed.m in Sources */,
 				183F67FD214A4A5000D3EC63 /* DecratorViewController.m in Sources */,
 				183F6854214A71EF00D3EC63 /* Flag.m in Sources */,
@@ -1076,6 +1092,7 @@
 				183F67F7214A499500D3EC63 /* PrototypeViewController.m in Sources */,
 				183F6806214A4AD100D3EC63 /* BridgeViewController.m in Sources */,
 				183F69BF214F548400D3EC63 /* NotFinalExpression.m in Sources */,
+				183F69D3214F8EB100D3EC63 /* MementoRole.m in Sources */,
 				183F6973214D5DCF00D3EC63 /* SugarAdds.m in Sources */,
 				183F6870214B514F00D3EC63 /* HuaweiBattery.m in Sources */,
 				183F683B214A4D6200D3EC63 /* InterpreterViewController.m in Sources */,
@@ -1129,6 +1146,7 @@
 				183F67AB214A33C100D3EC63 /* ViewController.m in Sources */,
 				183F6933214CFFC700D3EC63 /* BaseAdapter.m in Sources */,
 				183F67B6214A33C300D3EC63 /* main.m in Sources */,
+				183F69D6214F8F8B00D3EC63 /* MementoStore.m in Sources */,
 				183F682B214A4C9A00D3EC63 /* CommandViewController.m in Sources */,
 				183F6959214D50CA00D3EC63 /* Tableware.m in Sources */,
 				183F6999214EB6F100D3EC63 /* DeliciousFood.m in Sources */,

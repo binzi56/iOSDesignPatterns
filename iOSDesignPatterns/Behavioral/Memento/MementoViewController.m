@@ -7,6 +7,8 @@
 //
 
 #import "MementoViewController.h"
+#import "MementoRole.h"
+#import "MementoOriginator.h"
 
 @interface MementoViewController ()
 
@@ -17,6 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MementoOriginator *originator = [[MementoOriginator alloc] init];
+    [originator insertContent:[[MementoRole alloc] initWithName:@"Jack" age:23]];
+    [originator insertContent:[[MementoRole alloc] initWithName:@"Rose" age:24]];
+    [originator insertContent:[[MementoRole alloc] initWithName:@"Sams" age:46]];
+    [originator insertContent:[[MementoRole alloc] initWithName:@"Jade" age:45]];
+
+    MementoStore *store = [originator store];
+    
+    [originator insertContent:[[MementoRole alloc] initWithName:@"Fire" age:28]];
+    [originator echo];
+    
+    //重新存储
+    [originator restore:store];
+    [originator echo];
 }
 
 - (void)didReceiveMemoryWarning {
