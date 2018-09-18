@@ -34,6 +34,3 @@ iOS各种设计模式实践
 * [访问者模式(`Visitor`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Behavioral/Visitor)
 * [中介者模式(`Mediator`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Behavioral/Mediator)
 * [解释器模式(`Interpreter`)](https://github.com/binzi56/iOSDesignPatterns/tree/master/iOSDesignPatterns/Behavioral/Interpreter)
-
-
-欢迎[issue](https://github.com/binzi56/iOSDesignPatterns/issues)!
